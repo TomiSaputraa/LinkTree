@@ -12,7 +12,9 @@
 body {
   background-color: #000000;
   color: #fff;
+  /* agar tidak scroll kiri kanan atas dan bawah */
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 main {
