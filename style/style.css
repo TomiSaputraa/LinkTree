@@ -18,8 +18,6 @@ body {
 }
 
 main {
-  width: 100%; /* Sesuaikan dengan kebutuhan Anda */
-  max-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -30,11 +28,15 @@ main {
 }
 
 main h1 {
+  max-width: max-content;
+  width: 100%;
   font-size: 2.5rem;
   font-weight: 700;
 }
 
 main h2 {
+  max-width: max-content;
+  width: 100%;
   color: #b6b6b6;
   font-size: 1.875rem;
   font-style: normal;
