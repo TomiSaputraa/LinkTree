@@ -98,7 +98,8 @@ main .icon-container a[title]:hover::before {
 }
 
 #particles-js {
-  z-index: 0;
+  z-index: 999;
   width: 100vw;
   height: 100vh;
+  position: absolute;
 }
