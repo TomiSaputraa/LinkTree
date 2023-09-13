@@ -103,3 +103,9 @@ main .icon-container a[title]:hover::before {
   height: 100vh;
   position: absolute;
 }
+
+@media (max-width: 726px) {
+  main .icon-container {
+    row-gap: 30px;
+  }
+}
