@@ -126,6 +126,14 @@ ul {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
+#typing-effect {
+  border-right: 2px solid #000; /* Efek kursor */
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline;
+}
+
 /* aside */
 .aside {
   width: 270px;
